@@ -2,6 +2,7 @@
   $(function() {
     var editor = new Simditor({
       textarea: $('#product_description'),
+      upload: {'url': "<%= admin_pictures_url %>", 'fileKey': 'picture[image]'},
       pasteImage: true,
       defaultImage: '<%= image_path "upload-loading.png" %>',
       toolbar: [
