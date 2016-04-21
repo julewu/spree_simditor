@@ -3,4 +3,5 @@
  * the installer will append this file to the app vendored assets here: 'vendor/assets/stylesheets/spree/backend/all.css'
  *
  *= require simditor
+ *= require simditor-fullscreen
  */
