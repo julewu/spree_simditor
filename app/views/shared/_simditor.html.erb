@@ -1,0 +1,28 @@
+<script>
+  $(function() {
+    var editor = new Simditor({
+      textarea: $('#product_description'),
+      pasteImage: true,
+      defaultImage: '<%= image_path "upload-loading.png" %>',
+      toolbar: [
+        'title',
+        'bold',
+        'italic',
+        'underline',
+        'strikethrough',
+        'fontScale',
+        'color',
+        'ol',
+        'ul',
+        'blockquote',
+        'table',
+        'link',
+        'image',
+        'hr',
+        'indent',
+        'outdent',
+        'alignment',
+      ]
+    });
+  });
+</script>
