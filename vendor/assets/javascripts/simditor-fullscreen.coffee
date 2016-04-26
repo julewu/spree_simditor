@@ -37,9 +37,7 @@ class SimditorFullscreen extends Simditor.Button
       .resize()
     else
       @window.off("resize.simditor-fullscreen-#{@editor.id}").resize()
-
-      @_resize
-        height: 'auto'
+      @editable.removeAttr("style")
 
     @setActive isFullscreen
 
