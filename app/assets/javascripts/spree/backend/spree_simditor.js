@@ -3,3 +3,5 @@
 //= require simditor
 //= require simditor-fullscreen
 //= require simditor-dropzone
+//= require beautify-html
+//= require simditor-html
